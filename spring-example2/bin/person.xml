@@ -1,0 +1,22 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+			
+			<beans>
+			<bean id="p" class="com.adam.app.Person">
+			<property name="id" value="1243"/>
+			<property name="name" value="rag"/>
+			<property name="address" ref="a"/>
+			
+			
+			</bean>
+			
+			<bean id="a" class="com.adam.app.Address">
+			<property name="aid" value="23"/>
+			<property name="area" value="Raganagar"/>
+			<property name="city" value="RagaCity"/>
+			
+			
+			</bean>
+			
+			
+			</beans>
